@@ -1,0 +1,48 @@
+/* Global */
+
+section{
+    text-align: center;
+}
+
+.container{
+    max-width: 1140px;   
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.box{
+    flex: 0 0 40%;
+    flex-direction: column;
+}
+
+/* poem */
+
+.box p{
+    text-align: left;
+    /* content: '\A';
+    white-space: pre; */
+}
+
+.box p:first-of-type{
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.box p span{
+    font-size: 16px;
+    margin: 0 0 12px 0;
+    display: block;
+    font-weight: inherit;
+    font-style: italic;
+}
